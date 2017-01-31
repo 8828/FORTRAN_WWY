@@ -1,0 +1,17 @@
+!RECURISIVE SUBROUTINE FOR n!
+!2017.01.24 WWY
+    PROGRAM FACTORIAL
+
+    	IMPLICIT NONE
+    	INTEGER :: n, P 
+
+    	WRITE (*, *) 'INPUT THE NUMBER n:'
+    	READ  (*, *) n
+
+    	CALL FAC(P, n)
+
+        WRITE (*, '(A, I10)') 'THE RESULT IS:', P
+
+    END PROGRAM FACTORIAL
+
+    

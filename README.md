@@ -1,4 +1,4 @@
 # FORTRAN_WWY
 beginner
 
-record my code
+record my code at the beginning
